@@ -1,7 +1,7 @@
 # Site settings
-baseURL = "https://prlakhani.github.io"
+baseURL = "https://www.amanijambhekar.md"
 languageCode = "en-us"
-title = "Amani Jambhekar, MD"
+title = "Dr. Amani Jambhekar MD, MBA"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,7 +19,7 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
+  name = "Dr. Amani Jambhekar MD, MBA"
   description = "Your description"
 
   # Link custom assets relative to /static
@@ -32,13 +32,13 @@ disqusShortname = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
+    heading = "Sorry, that page couldn't be found."
     text = "Please visit [this page](/)"
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Dr. Amani Jambhekar"
+    subtitle = "MD, MBA"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -81,9 +81,9 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
+    title = "Hi, my name is Dr. Amani Jambhekar"
     subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    buttonText = "Who am I?"
 
 
   # Tiles Section
@@ -150,7 +150,7 @@ disqusShortname = ""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     buttonSend = "Send message"
     buttonClear = "Clear"
 
