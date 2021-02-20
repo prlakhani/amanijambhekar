@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://amanijambhekar.md"
+baseURL = "https://amanijambhekar.md"
 languageCode = "en-us"
 title = "Dr. Amani Jambhekar MD, MBA"
 theme = "forty"
