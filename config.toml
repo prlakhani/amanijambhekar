@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://www.amanijambhekar.md"
+baseURL = "amanijambhekar.md"
 languageCode = "en-us"
 title = "Dr. Amani Jambhekar MD, MBA"
 theme = "forty"
@@ -20,7 +20,7 @@ disqusShortname = ""
 
   # Provide your metadata here.
   name = "Dr. Amani Jambhekar MD, MBA"
-  description = "Your description"
+  description = "Breast cancer surgeon empowering women in medicine."
 
   # Link custom assets relative to /static
   custom_css = []
