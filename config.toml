@@ -101,7 +101,7 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "Hi, my name is Dr. Amani Jambhekar"
-    subtitle = "My mission is to provide evidence-based education, elevate the voices of underrepresented communities, and empower my patients."
+    subtitle = "My goal is to provide evidence-based education, elevate the voices of underrepresented communities, and empower my patients."
     # buttonText = "Who am I?"
 
 
@@ -215,15 +215,15 @@ disqusShortname = ""
       url= "https://www.instagram.com/ajvictorymd/"
       label = "Instagram"
 
-    # [[params.footer.social]]
-    #   icon = "fa-tiktok" # FIXME: having trouble getting this icon to work, even with updated fa files
-    #   url= "https://www.tiktok.com/@ajvictorymd"
-    #   label = "TikTok"
-
     [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com/ajamh"
-      label = "Facebook"
+      icon = "fa fa-tiktok" # FIXME: having trouble getting this icon to work, even with updated fa files
+      url= "https://www.tiktok.com/@ajvictorymd"
+      label = "TikTok"
+
+    # [[params.footer.social]]
+    #   icon = "fa-facebook"
+    #   url= "https://www.facebook.com/ajamh"
+    #   label = "Facebook"
     
     # [[params.footer.social]]
     #   icon = "fa-github"
