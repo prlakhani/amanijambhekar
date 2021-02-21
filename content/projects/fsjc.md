@@ -1,7 +1,7 @@
 ---
-title: "The Virtual Mentor"
-description: "Share resources for students interested in medicine or surgery."
-slug: "virtual-mentor"
+title: "Future Surgeons Journal Club"
+description: "Moderated discussions teaching future surgeons to analyze and review surgical literature."
+slug: "fsjc"
 image: fsjc.png
 date: 2017-10-31T22:26:13-05:00
 draft: false

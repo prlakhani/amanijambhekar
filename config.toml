@@ -63,6 +63,14 @@ disqusShortname = ""
       name = "Prose and Poetry"
       url = "posts"
 
+    [[params.navigation.links]]
+      name = "Press"
+      url = "press"
+
+    [[params.navigation.links]]
+      name = "Photos"
+      url = "https://www.instagram.com/ajvictorymd/"
+
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
     # code below if you need more links. Buttons work in the same way.
@@ -93,7 +101,7 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "Hi, my name is Dr. Amani Jambhekar"
-    subtitle = "I am "
+    subtitle = "I am a Houston-based breast cancer surgeon working to empower those around me"
     # buttonText = "Who am I?"
 
 
@@ -105,38 +113,38 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Personal"
       subtitle = "About me"
-      image = "pic01.jpg"
+      image = "banff.jpg"
       url = "about"
 
     [[params.tiles.showcase]]
       title = "Professional"
       subtitle = "What I do"
-      image = "pic02.jpg"
+      image = "or2.jpg"
       url = "professional"
 
     [[params.tiles.showcase]]
       title = "Projects"
       subtitle = "How I try to help"
-      image = "pic03.jpg"
+      image = "aqueduct.jpg"
       url = "projects"
 
     [[params.tiles.showcase]]
       title = "Prose and Poetry"
       subtitle = "My writing"
-      image = "pic04.jpg"
+      image = "road.jpg"
       url = "posts"
 
-    # [[params.tiles.showcase]]
-    #   title = "Photos"
-    #   subtitle = "Ipsum Dolor Sit Amet"
-    #   image = "pic05.jpg"
-    #   url = "blogs/ipsum"
+    [[params.tiles.showcase]]
+      title = "Press"
+      subtitle = "Articles about me or my work"
+      image = "coloramani.jpg"
+      url = "press"
 
-    # [[params.tiles.showcase]]
-    #   title = "Etiam"
-    #   subtitle = "Feugiat Amet Tempus"
-    #   image = "pic06.jpg"
-    #   url = "blogs/ipsum"
+    [[params.tiles.showcase]]
+      title = "Photos"
+      subtitle = "Sharing the beauty I see"
+      image = "sunset.jpg"
+      url = "https://www.instagram.com/ajvictorymd/"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
