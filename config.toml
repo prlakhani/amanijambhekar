@@ -93,8 +93,8 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "Hi, my name is Dr. Amani Jambhekar"
-    subtitle = "I am empowering women and minorities in medicine."
-    buttonText = "Who am I?"
+    subtitle = "I am "
+    # buttonText = "Who am I?"
 
 
   # Tiles Section
@@ -150,7 +150,7 @@ disqusShortname = ""
   [params.two]
     enable = true
     title = "Mission Statement"
-    subtitle = """To empower women and minorities, particularly in medicine and surgery, to create the greatest positive impact on those around them."""
+    subtitle = """To provide evidence-based education, elevate the voices of underrepresented communities, and empower my patients."""
     buttonText = "Learn More"
     url = "about"
 
