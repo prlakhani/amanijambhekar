@@ -207,6 +207,11 @@ disqusShortname = ""
       url= "https://www.instagram.com/ajvictorymd/"
       label = "Instagram"
 
+    # [[params.footer.social]]
+    #   icon = "fa-tiktok" # FIXME: having trouble getting this icon to work, even with updated fa files
+    #   url= "https://www.tiktok.com/@ajvictorymd"
+    #   label = "TikTok"
+
     [[params.footer.social]]
       icon = "fa-facebook"
       url= "https://www.facebook.com/ajamh"
