@@ -49,7 +49,7 @@ disqusShortname = ""
 
     [[params.navigation.links]]
       name = "Personal"
-      url = "about-me"
+      url = "about"
 
     [[params.navigation.links]]
       name = "Professional"
@@ -106,7 +106,7 @@ disqusShortname = ""
       title = "Personal"
       subtitle = "About me"
       image = "pic01.jpg"
-      url = "about-me"
+      url = "about"
 
     [[params.tiles.showcase]]
       title = "Professional"
@@ -152,7 +152,7 @@ disqusShortname = ""
     title = "Mission Statement"
     subtitle = """To empower women and minorities, particularly in medicine and surgery, to create the greatest positive impact on those around them."""
     buttonText = "Learn More"
-    url = "about-me"
+    url = "about"
 
 
   # Contact section
