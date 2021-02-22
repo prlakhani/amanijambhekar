@@ -211,12 +211,12 @@ disqusShortname = ""
     #   label = "Twitter"
 
     [[params.footer.social]]
-      icon = "fa-instagram"
+      icon = "fab fa-instagram"
       url= "https://www.instagram.com/ajvictorymd/"
       label = "Instagram"
 
     [[params.footer.social]]
-      icon = "fa fa-tiktok" # FIXME: having trouble getting this icon to work, even with updated fa files
+      icon = "fab fa-tiktok" # FIXME: having trouble getting this icon to work, even with updated fa files
       url= "https://www.tiktok.com/@ajvictorymd"
       label = "TikTok"
 
@@ -231,7 +231,7 @@ disqusShortname = ""
     #   label = "GitHub"
 
     [[params.footer.social]]
-      icon = "fa-linkedin"
+      icon = "fab fa-linkedin"
       url= "https://www.linkedin.com/in/amani-jambhekar-md-mba-a9ab3116a/"
       label = "LinkedIn"
 
