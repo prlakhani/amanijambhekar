@@ -48,19 +48,19 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Personal"
-      url = "about"
+      name = "About Me"
+      url = "about-me"
 
     [[params.navigation.links]]
       name = "Professional"
       url = "professional"
 
     [[params.navigation.links]]
-      name = "Projects"
-      url = "projects"
+      name = "Social Entrepreneurship"
+      url = "social-entrepreneurship"
 
     [[params.navigation.links]]
-      name = "Prose and Poetry"
+      name = "Written "
       url = "posts"
 
     [[params.navigation.links]]
@@ -111,37 +111,37 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Personal"
+      title = "About Me"
       subtitle = "About me"
       image = "banff.jpg"
-      url = "about"
+      url = "about-me"
 
     [[params.tiles.showcase]]
       title = "Professional"
       subtitle = "What I do"
-      image = "or2.jpg"
+      image = "orsolo.jpeg"
       url = "professional"
 
     [[params.tiles.showcase]]
-      title = "Projects"
+      title = "Social Entrepreneurship"
       subtitle = "How I try to help"
       image = "aqueduct.jpg"
-      url = "projects"
+      url = "social-entrepreneurship"
 
     [[params.tiles.showcase]]
-      title = "Prose and Poetry"
-      subtitle = "My writing"
+      title = "Written Work"
+      subtitle = "Prose and poetry"
       image = "road.jpg"
-      url = "posts"
+      url = "written-work"
 
     [[params.tiles.showcase]]
       title = "Press"
-      subtitle = "Articles about me or my work"
+      subtitle = "Articles and professional achievements"
       image = "coloramani.jpg"
       url = "press"
 
     [[params.tiles.showcase]]
-      title = "Photos"
+      title = "Photography"
       subtitle = "Sharing the beauty I see"
       image = "sunset.jpg"
       url = "https://www.instagram.com/ajvictorymd/"

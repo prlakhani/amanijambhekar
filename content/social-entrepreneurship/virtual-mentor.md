@@ -1,7 +1,7 @@
 ---
 title: "The Virtual Mentor"
 description: "Free resource for prehealth students to find organized and curated advice from healthcare professionals on social media."
-image: virtualmentor.png
+image: virtualmentor_full.jpeg
 date: 2017-10-31T22:26:13-05:00
 draft: false
 ---

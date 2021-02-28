@@ -1,6 +1,6 @@
 ---
 title: "Professional Background"
-image: or2.jpg
+image: orsolo.jpeg
 date: 2021-02-20T22:27:21-05:00
 draft: false
 ---
