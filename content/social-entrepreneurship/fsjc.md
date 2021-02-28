@@ -1,7 +1,8 @@
 ---
 title: "Future Surgeons Journal Club"
-description: "Moderated discussions between attending surgeons teaching future surgeons how to analyze and review surgical literature."
-image: fsjc.png
+description: "Moderated discussions between attending surgeons teaching future surgeons how to analyze and review surgical literature"
+category: "Projects"
+image: fsjc.jpg
 date: 2017-10-31T22:26:13-05:00
 draft: false
 ---

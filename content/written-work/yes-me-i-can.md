@@ -2,7 +2,6 @@
 title: "Yes, me - I can"
 description: ""
 image: poembutterfly.jpg
-keywords: ""
 categories: 
     - "poetry"
     - ""

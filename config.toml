@@ -60,8 +60,8 @@ disqusShortname = ""
       url = "social-entrepreneurship"
 
     [[params.navigation.links]]
-      name = "Written "
-      url = "posts"
+      name = "Written Work"
+      url = "written-work"
 
     [[params.navigation.links]]
       name = "Press"
@@ -84,7 +84,7 @@ disqusShortname = ""
     #   url = "blogs"
 
     # # Button Style 2
-    # [[params.navigation.button2    # [[params.navigation.button1]]
+    # [[params.navigation.button2]]
     #   name = "Get Started"
     #   url = "blogs"
 
@@ -130,7 +130,7 @@ disqusShortname = ""
 
     [[params.tiles.showcase]]
       title = "Written Work"
-      subtitle = "Prose and poetry"
+      subtitle = "My words"
       image = "road.jpg"
       url = "written-work"
 
@@ -160,7 +160,7 @@ disqusShortname = ""
     title = "Mission Statement"
     subtitle = """To provide evidence-based education, elevate the voices of underrepresented communities, and empower my patients."""
     buttonText = "Learn More"
-    url = "about"
+    url = "about-me"
 
 
   # Contact section

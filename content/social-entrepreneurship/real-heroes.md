@@ -1,6 +1,7 @@
 ---
 title: "Real Heroes Need Masks"
-description: "Fundraised, purchased, and distributed 73,000 masks to healthcare workers in underserved communities from March to October 2020 "
+description: "Fundraised, purchased, and distributed 73,000 masks to healthcare workers in underserved communities from March to October 2020"
+category: "Projects"
 image: rhnm.png
 date: 2017-10-31T22:26:13-05:00
 draft: false
