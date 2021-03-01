@@ -1,0 +1,68 @@
+<html>
+{{ "<!-- Header -->" | safeHTML }}
+    {{ partial "header.html" . }}
+
+    <body>
+
+    {{ "<!-- Wrapper -->" | safeHTML }}
+        <div id="wrapper">
+
+            {{ partial "nav.html" . }}
+
+        {{ "<!-- Main -->" | safeHTML }}
+            <div id="main">
+
+                <section id="banner" class="style2">
+                    <div class="inner">
+			{{ if .Params.image }}
+                        <span class="image">
+                            <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" />
+                        </span>
+			{{ end }}
+                        <header class="major">
+                            <h1>{{ .Title }}</h1>
+                        </header>
+                        <div class="content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </section>
+
+                <section id="two" class="spotlights2">
+                    <section class=press-container>
+                        {{ range where .Pages ".Params.category" "Press" }}
+                        <section class="press">
+                            {{ if .Params.image }}
+                            <a href="{{ .Params.externalURL | safeHTML }}" class="image" target="_blank">
+                                <img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" />
+                            </a>
+                            {{ else }}
+                            <a href="{{ .Params.externalURL | safeHTML}}" class="icon" target="_blank">
+                                <i class="far fa-newspaper" ></i>
+                            </a>
+                            {{ end }}
+                            <div class="content">
+                                <div class="inner">
+                                    <a href="{{ .Params.externalURL | safeHTML }}" target="_blank">
+                                        {{ .Title }}
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        {{ end }}
+                    </section>
+                </section>
+            </div>
+            
+        {{ "<!-- Footer -->" | safeHTML}}
+			{{ if .Site.Params.footer.enable }}
+				{{ partial "footer.html" . }}
+            {{ end }}
+        
+        </div>
+
+    {{ "<!-- Scripts -->" | safeHTML}}
+        {{ partial "js.html" . }}
+        
+    </body>
+</html>
