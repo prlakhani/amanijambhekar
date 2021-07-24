@@ -34,20 +34,25 @@
                         <section class="press">
                             
                             <div class="content">
-                                {{ if .Params.image }}
-                            <a href="{{ .Params.externalURL | safeHTML }}" class="image" target="_blank">
-                                <img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" />
-                            </a>
-                            {{ else }}
-                            <a href="{{ .Params.externalURL | safeHTML}}" class="icon" target="_blank">
-                                <i class="far fa-3x fa-newspaper" ></i>
-                            </a>
-                            {{ end }}
-                                <div class="inner">
-                                    <a href="{{ .Params.externalURL | safeHTML }}" target="_blank">
+                                
+                                {{/*  <div class="inner">  */}}
+                                    <div class="inner-img">
+                                    {{ if .Params.image }}
+                                        <a href="{{ .Params.externalURL | safeHTML }}" class="image" target="_blank">
+                                            <img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" />
+                                        </a>
+                                    {{ else }}
+                                        <a href="{{ .Params.externalURL | safeHTML}}" class="icon" target="_blank">
+                                            <i class="far fa-3x fa-newspaper" ></i>
+                                        </a>
+                                    {{ end }}
+                                    </div>
+                                    <div class="inner-title">
+                                        <a href="{{ .Params.externalURL | safeHTML }}" target="_blank">
                                         {{ .Title }}
-                                    </a>
-                                </div>
+                                        </a>
+                                    </div>
+                                {{/*  </div>  */}}
                             </div>
                         </section>
                         {{ end }}
